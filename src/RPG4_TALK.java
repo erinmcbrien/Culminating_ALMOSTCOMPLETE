@@ -3,7 +3,8 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
+// RPG1.playerName
+// RPG3.playerHP
 /**
  *
  * @author ErMcB6406
@@ -26,21 +27,115 @@ public class RPG4_TALK extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jLabel4 = new javax.swing.JLabel();
+        jLabel5 = new javax.swing.JLabel();
+        RPG4_TALK = new javax.swing.JPanel();
+        Title = new javax.swing.JLabel();
+        GameText2 = new javax.swing.JLabel();
+        continueButton = new javax.swing.JButton();
+        jLabel6 = new javax.swing.JLabel();
+        jLabel7 = new javax.swing.JLabel();
+
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/wolfsmaller.png"))); // NOI18N
+        jLabel4.setText("jLabel2");
+
+        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/wolfsmaller.png"))); // NOI18N
+        jLabel5.setText("jLabel2");
+
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+
+        RPG4_TALK.setBackground(new java.awt.Color(0, 0, 0));
+
+        Title.setFont(new java.awt.Font("Wet Pet", 0, 48)); // NOI18N
+        Title.setForeground(new java.awt.Color(255, 255, 255));
+        Title.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        Title.setText("In the mists of aeriden");
+        Title.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        Title.setDebugGraphicsOptions(javax.swing.DebugGraphics.NONE_OPTION);
+        Title.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+
+        GameText2.setFont(new java.awt.Font("Goudy Old Style", 0, 18)); // NOI18N
+        GameText2.setForeground(new java.awt.Color(255, 255, 255));
+        GameText2.setText("<html> * You decided to talk to the guard <br> * \"Hello there, stranger.\"<br> * \"Sorry, but we cannot let in a possibly <br> &nbsp; dangerous stranger into our town.\" <br> * \"God knows we have learned from our past mistakes.\" <br> * It appears the guard will not <br> &nbsp; allow you into the town just yet <br> * Maybe you should try to gain their trust? <br> * What do you want to do?");
+
+        continueButton.setFont(new java.awt.Font("Trajan Pro", 0, 14)); // NOI18N
+        continueButton.setText("CONTINUE");
+        continueButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                continueButtonActionPerformed(evt);
+            }
+        });
+
+        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/wolfsmaller.png"))); // NOI18N
+        jLabel6.setText("jLabel2");
+
+        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/wolfsmaller.png"))); // NOI18N
+        jLabel7.setText("jLabel2");
+
+        javax.swing.GroupLayout RPG4_TALKLayout = new javax.swing.GroupLayout(RPG4_TALK);
+        RPG4_TALK.setLayout(RPG4_TALKLayout);
+        RPG4_TALKLayout.setHorizontalGroup(
+            RPG4_TALKLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(RPG4_TALKLayout.createSequentialGroup()
+                .addGap(27, 27, 27)
+                .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(GameText2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(43, 43, 43))
+            .addGroup(RPG4_TALKLayout.createSequentialGroup()
+                .addGap(61, 61, 61)
+                .addComponent(Title)
+                .addContainerGap(80, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, RPG4_TALKLayout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(continueButton)
+                .addGap(291, 291, 291))
+        );
+        RPG4_TALKLayout.setVerticalGroup(
+            RPG4_TALKLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(RPG4_TALKLayout.createSequentialGroup()
+                .addGroup(RPG4_TALKLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(RPG4_TALKLayout.createSequentialGroup()
+                        .addGap(91, 91, 91)
+                        .addComponent(jLabel6)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addGroup(RPG4_TALKLayout.createSequentialGroup()
+                        .addGap(20, 20, 20)
+                        .addComponent(Title)
+                        .addGroup(RPG4_TALKLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(RPG4_TALKLayout.createSequentialGroup()
+                                .addGap(28, 28, 28)
+                                .addComponent(jLabel7))
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, RPG4_TALKLayout.createSequentialGroup()
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 54, Short.MAX_VALUE)
+                                .addComponent(GameText2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(42, 42, 42)))))
+                .addComponent(continueButton)
+                .addGap(41, 41, 41))
+        );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 400, Short.MAX_VALUE)
+            .addComponent(RPG4_TALK, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 300, Short.MAX_VALUE)
+            .addComponent(RPG4_TALK, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+
+    private void continueButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_continueButtonActionPerformed
+
+        this.setVisible(false);
+        new RPG3().setVisible(true);
+    }//GEN-LAST:event_continueButtonActionPerformed
 
     /**
      * @param args the command line arguments
@@ -78,5 +173,13 @@ public class RPG4_TALK extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JLabel GameText2;
+    private javax.swing.JPanel RPG4_TALK;
+    private javax.swing.JLabel Title;
+    private javax.swing.JButton continueButton;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
     // End of variables declaration//GEN-END:variables
 }

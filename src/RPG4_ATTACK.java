@@ -26,37 +26,20 @@ public class RPG4_ATTACK extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jLabel3 = new javax.swing.JLabel();
-        leaveButton = new javax.swing.JButton();
-        attackButton = new javax.swing.JButton();
-        playerNameTxt = new javax.swing.JPanel();
+        jLabel5 = new javax.swing.JLabel();
+        RPG4_ATTACK = new javax.swing.JPanel();
         Title = new javax.swing.JLabel();
-        talkButton = new javax.swing.JButton();
+        continueButton = new javax.swing.JButton();
         jLabel4 = new javax.swing.JLabel();
         GameText2 = new javax.swing.JLabel();
-        jLabel5 = new javax.swing.JLabel();
+        jLabel6 = new javax.swing.JLabel();
 
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/wolfsmaller.png"))); // NOI18N
-
-        leaveButton.setFont(new java.awt.Font("Trajan Pro", 0, 14)); // NOI18N
-        leaveButton.setText("LEAVE");
-        leaveButton.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                leaveButtonActionPerformed(evt);
-            }
-        });
-
-        attackButton.setFont(new java.awt.Font("Trajan Pro", 0, 14)); // NOI18N
-        attackButton.setText("Attack");
-        attackButton.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                attackButtonActionPerformed(evt);
-            }
-        });
+        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/rpgwolf_morecolour_fringe.png"))); // NOI18N
+        jLabel5.setText("jLabel2");
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        playerNameTxt.setBackground(new java.awt.Color(0, 0, 0));
+        RPG4_ATTACK.setBackground(new java.awt.Color(0, 0, 0));
 
         Title.setFont(new java.awt.Font("Wet Pet", 0, 48)); // NOI18N
         Title.setForeground(new java.awt.Color(255, 255, 255));
@@ -66,11 +49,11 @@ public class RPG4_ATTACK extends javax.swing.JFrame {
         Title.setDebugGraphicsOptions(javax.swing.DebugGraphics.NONE_OPTION);
         Title.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
-        talkButton.setFont(new java.awt.Font("Trajan Pro", 0, 14)); // NOI18N
-        talkButton.setText("TALK");
-        talkButton.addActionListener(new java.awt.event.ActionListener() {
+        continueButton.setFont(new java.awt.Font("Trajan Pro", 0, 14)); // NOI18N
+        continueButton.setText("CONTINUE");
+        continueButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                talkButtonActionPerformed(evt);
+                continueButtonActionPerformed(evt);
             }
         });
 
@@ -79,84 +62,77 @@ public class RPG4_ATTACK extends javax.swing.JFrame {
 
         GameText2.setFont(new java.awt.Font("Goudy Old Style", 0, 18)); // NOI18N
         GameText2.setForeground(new java.awt.Color(255, 255, 255));
-        GameText2.setText("<html> * You now come to a stop infront <br> &nbsp; of the gates of the town <br> * A guard stands rigid on their surveillance post<br> * You can feel their serious demeanor and wonder <br> &nbsp; if you are able to pass <br> * What do you want to do?  <html>");
+        GameText2.setText("<html> * You decided to attack the guard <br> * You draw your rusty sword and <br> &nbsp;\nswing at the sentry <br> * You have either overestimated your skill <br> &nbsp; or the guard has god level power <br> * You lose 1 HP");
 
-        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/rpgwolf_morecolour_fringe.png"))); // NOI18N
-        jLabel5.setText("jLabel2");
+        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/rpgwolf_morecolour_fringe.png"))); // NOI18N
+        jLabel6.setText("jLabel2");
 
-        javax.swing.GroupLayout playerNameTxtLayout = new javax.swing.GroupLayout(playerNameTxt);
-        playerNameTxt.setLayout(playerNameTxtLayout);
-        playerNameTxtLayout.setHorizontalGroup(
-            playerNameTxtLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(playerNameTxtLayout.createSequentialGroup()
-                .addGap(155, 155, 155)
-                .addComponent(GameText2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addGap(30, 30, 30))
-            .addGroup(playerNameTxtLayout.createSequentialGroup()
-                .addGroup(playerNameTxtLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(playerNameTxtLayout.createSequentialGroup()
-                        .addGap(39, 39, 39)
+        javax.swing.GroupLayout RPG4_ATTACKLayout = new javax.swing.GroupLayout(RPG4_ATTACK);
+        RPG4_ATTACK.setLayout(RPG4_ATTACKLayout);
+        RPG4_ATTACKLayout.setHorizontalGroup(
+            RPG4_ATTACKLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(RPG4_ATTACKLayout.createSequentialGroup()
+                .addGroup(RPG4_ATTACKLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(RPG4_ATTACKLayout.createSequentialGroup()
+                        .addGap(36, 36, 36)
                         .addComponent(Title))
-                    .addGroup(playerNameTxtLayout.createSequentialGroup()
-                        .addGap(274, 274, 274)
-                        .addComponent(talkButton)))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-            .addGroup(playerNameTxtLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(playerNameTxtLayout.createSequentialGroup()
+                    .addGroup(RPG4_ATTACKLayout.createSequentialGroup()
+                        .addGroup(RPG4_ATTACKLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(RPG4_ATTACKLayout.createSequentialGroup()
+                                .addGap(172, 172, 172)
+                                .addComponent(GameText2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(RPG4_ATTACKLayout.createSequentialGroup()
+                                .addGap(246, 246, 246)
+                                .addComponent(continueButton)))
+                        .addGap(29, 29, 29)
+                        .addComponent(jLabel6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                .addGap(50, 50, 50))
+            .addGroup(RPG4_ATTACKLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(RPG4_ATTACKLayout.createSequentialGroup()
                     .addGap(37, 37, 37)
                     .addComponent(jLabel4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addGap(516, 516, 516)))
         );
-        playerNameTxtLayout.setVerticalGroup(
-            playerNameTxtLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(playerNameTxtLayout.createSequentialGroup()
+        RPG4_ATTACKLayout.setVerticalGroup(
+            RPG4_ATTACKLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(RPG4_ATTACKLayout.createSequentialGroup()
                 .addGap(20, 20, 20)
                 .addComponent(Title)
                 .addGap(29, 29, 29)
-                .addGroup(playerNameTxtLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(RPG4_ATTACKLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(GameText2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel5))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 138, Short.MAX_VALUE)
-                .addComponent(talkButton)
-                .addGap(46, 46, 46))
-            .addGroup(playerNameTxtLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(playerNameTxtLayout.createSequentialGroup()
+                    .addComponent(jLabel6))
+                .addGap(42, 42, 42)
+                .addComponent(continueButton)
+                .addContainerGap(46, Short.MAX_VALUE))
+            .addGroup(RPG4_ATTACKLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(RPG4_ATTACKLayout.createSequentialGroup()
                     .addGap(91, 91, 91)
                     .addComponent(jLabel4)
-                    .addContainerGap(240, Short.MAX_VALUE)))
+                    .addContainerGap(144, Short.MAX_VALUE)))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(playerNameTxt, javax.swing.GroupLayout.PREFERRED_SIZE, 647, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addComponent(RPG4_ATTACK, javax.swing.GroupLayout.PREFERRED_SIZE, 634, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(playerNameTxt, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addComponent(RPG4_ATTACK, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void talkButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_talkButtonActionPerformed
+    private void continueButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_continueButtonActionPerformed
 
         this.setVisible(false);
-        new RPG4_TALK().setVisible(true);
-    }//GEN-LAST:event_talkButtonActionPerformed
-
-    private void attackButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_attackButtonActionPerformed
-        this.setVisible(false);
-        new RPG4_ATTACK().setVisible(true);
-    }//GEN-LAST:event_attackButtonActionPerformed
-
-    private void leaveButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_leaveButtonActionPerformed
-        this.setVisible(false);
-        new RPG4_LEAVE().setVisible(true);
-    }//GEN-LAST:event_leaveButtonActionPerformed
+        new RPG3().setVisible(true);
+        
+        RPG3.playerHP = RPG3.playerHP - 1;
+    }//GEN-LAST:event_continueButtonActionPerformed
 
     /**
      * @param args the command line arguments
@@ -195,13 +171,11 @@ public class RPG4_ATTACK extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel GameText2;
+    private javax.swing.JPanel RPG4_ATTACK;
     private javax.swing.JLabel Title;
-    private javax.swing.JButton attackButton;
-    private javax.swing.JLabel jLabel3;
+    private javax.swing.JButton continueButton;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
-    private javax.swing.JButton leaveButton;
-    private javax.swing.JPanel playerNameTxt;
-    private javax.swing.JButton talkButton;
+    private javax.swing.JLabel jLabel6;
     // End of variables declaration//GEN-END:variables
 }

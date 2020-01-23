@@ -6,14 +6,14 @@
 
 /**
  *
- * @author ErMcB6406
+ * @author ERMCB6406
  */
-public class RPG4_LEAVE extends javax.swing.JFrame {
+public class RPG4_LEAVE_ALT extends javax.swing.JFrame {
 
     /**
-     * Creates new form RPG4_LEAVE
+     * Creates new form RPG4_LEAVE_ALT
      */
-    public RPG4_LEAVE() {
+    public RPG4_LEAVE_ALT() {
         initComponents();
     }
 
@@ -26,21 +26,17 @@ public class RPG4_LEAVE extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jLabel7 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
-        RPG4_LEAVE = new javax.swing.JPanel();
+        RPG4_LEAVE_ALT = new javax.swing.JPanel();
         Title = new javax.swing.JLabel();
         NORTH = new javax.swing.JButton();
         GameText2 = new javax.swing.JLabel();
         EAST = new javax.swing.JButton();
         SOUTH = new javax.swing.JButton();
         WEST = new javax.swing.JButton();
-        jLabel8 = new javax.swing.JLabel();
         jLabel9 = new javax.swing.JLabel();
-
-        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/wolfsmaller.png"))); // NOI18N
-        jLabel7.setText("jLabel2");
+        jLabel10 = new javax.swing.JLabel();
 
         jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/wolfsmaller.png"))); // NOI18N
         jLabel4.setText("jLabel2");
@@ -50,7 +46,7 @@ public class RPG4_LEAVE extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        RPG4_LEAVE.setBackground(new java.awt.Color(0, 0, 0));
+        RPG4_LEAVE_ALT.setBackground(new java.awt.Color(0, 0, 0));
 
         Title.setFont(new java.awt.Font("Wet Pet", 0, 48)); // NOI18N
         Title.setForeground(new java.awt.Color(255, 255, 255));
@@ -96,73 +92,73 @@ public class RPG4_LEAVE extends javax.swing.JFrame {
             }
         });
 
-        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/wolfsmaller.png"))); // NOI18N
-        jLabel8.setText("jLabel2");
-
         jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/wolfsmaller.png"))); // NOI18N
         jLabel9.setText("jLabel2");
 
-        javax.swing.GroupLayout RPG4_LEAVELayout = new javax.swing.GroupLayout(RPG4_LEAVE);
-        RPG4_LEAVE.setLayout(RPG4_LEAVELayout);
-        RPG4_LEAVELayout.setHorizontalGroup(
-            RPG4_LEAVELayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(RPG4_LEAVELayout.createSequentialGroup()
-                .addGroup(RPG4_LEAVELayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(RPG4_LEAVELayout.createSequentialGroup()
-                        .addGap(186, 186, 186)
+        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/wolfsmaller.png"))); // NOI18N
+        jLabel10.setText("jLabel2");
+
+        javax.swing.GroupLayout RPG4_LEAVE_ALTLayout = new javax.swing.GroupLayout(RPG4_LEAVE_ALT);
+        RPG4_LEAVE_ALT.setLayout(RPG4_LEAVE_ALTLayout);
+        RPG4_LEAVE_ALTLayout.setHorizontalGroup(
+            RPG4_LEAVE_ALTLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(RPG4_LEAVE_ALTLayout.createSequentialGroup()
+                .addGroup(RPG4_LEAVE_ALTLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(RPG4_LEAVE_ALTLayout.createSequentialGroup()
+                        .addGap(182, 182, 182)
                         .addComponent(WEST)
-                        .addGap(120, 120, 120)
+                        .addGap(127, 127, 127)
                         .addComponent(EAST))
-                    .addGroup(RPG4_LEAVELayout.createSequentialGroup()
+                    .addGroup(RPG4_LEAVE_ALTLayout.createSequentialGroup()
                         .addGap(30, 30, 30)
-                        .addGroup(RPG4_LEAVELayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addGroup(RPG4_LEAVELayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addComponent(Title)
-                                .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, RPG4_LEAVELayout.createSequentialGroup()
-                                    .addGroup(RPG4_LEAVELayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                        .addComponent(NORTH, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                        .addComponent(SOUTH, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                                    .addGap(227, 227, 227)))
-                            .addGroup(RPG4_LEAVELayout.createSequentialGroup()
+                        .addGroup(RPG4_LEAVE_ALTLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(Title)
+                            .addGroup(RPG4_LEAVE_ALTLayout.createSequentialGroup()
                                 .addGap(10, 10, 10)
-                                .addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(jLabel10, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(85, 85, 85)
                                 .addComponent(GameText2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(15, 15, 15)))))
+                                .addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(20, 20, 20)))))
                 .addContainerGap(33, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, RPG4_LEAVE_ALTLayout.createSequentialGroup()
+                .addGap(0, 0, Short.MAX_VALUE)
+                .addGroup(RPG4_LEAVE_ALTLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(NORTH, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(SOUTH, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGap(260, 260, 260))
         );
-        RPG4_LEAVELayout.setVerticalGroup(
-            RPG4_LEAVELayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(RPG4_LEAVELayout.createSequentialGroup()
+        RPG4_LEAVE_ALTLayout.setVerticalGroup(
+            RPG4_LEAVE_ALTLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(RPG4_LEAVE_ALTLayout.createSequentialGroup()
                 .addGap(19, 19, 19)
                 .addComponent(Title)
                 .addGap(30, 30, 30)
-                .addGroup(RPG4_LEAVELayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                .addGroup(RPG4_LEAVE_ALTLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(GameText2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel8)
-                    .addComponent(jLabel9))
+                    .addComponent(jLabel9)
+                    .addComponent(jLabel10))
                 .addGap(50, 50, 50)
                 .addComponent(NORTH)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 20, Short.MAX_VALUE)
-                .addGroup(RPG4_LEAVELayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(WEST)
-                    .addComponent(EAST))
-                .addGap(23, 23, 23)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 19, Short.MAX_VALUE)
+                .addGroup(RPG4_LEAVE_ALTLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(EAST)
+                    .addComponent(WEST))
+                .addGap(29, 29, 29)
                 .addComponent(SOUTH)
-                .addGap(33, 33, 33))
+                .addGap(41, 41, 41))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(RPG4_LEAVE, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addComponent(RPG4_LEAVE_ALT, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(RPG4_LEAVE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(RPG4_LEAVE_ALT, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
         pack();
@@ -181,7 +177,7 @@ public class RPG4_LEAVE extends javax.swing.JFrame {
 
     private void SOUTHActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SOUTHActionPerformed
         this.setVisible(false);
-        new RPG3().setVisible(true);
+        new RPG5_SOUTH_ALT().setVisible(true);
     }//GEN-LAST:event_SOUTHActionPerformed
 
     private void WESTActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_WESTActionPerformed
@@ -206,20 +202,20 @@ public class RPG4_LEAVE extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(RPG4_LEAVE.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(RPG4_LEAVE_ALT.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(RPG4_LEAVE.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(RPG4_LEAVE_ALT.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(RPG4_LEAVE.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(RPG4_LEAVE_ALT.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(RPG4_LEAVE.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(RPG4_LEAVE_ALT.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new RPG4_LEAVE().setVisible(true);
+                new RPG4_LEAVE_ALT().setVisible(true);
             }
         });
     }
@@ -228,14 +224,13 @@ public class RPG4_LEAVE extends javax.swing.JFrame {
     private javax.swing.JButton EAST;
     private javax.swing.JLabel GameText2;
     private javax.swing.JButton NORTH;
-    private javax.swing.JPanel RPG4_LEAVE;
+    private javax.swing.JPanel RPG4_LEAVE_ALT;
     private javax.swing.JButton SOUTH;
     private javax.swing.JLabel Title;
     private javax.swing.JButton WEST;
+    private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel7;
-    private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
     // End of variables declaration//GEN-END:variables
 }

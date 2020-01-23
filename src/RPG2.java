@@ -26,35 +26,15 @@ public class RPG2 extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        Image1 = new javax.swing.JLabel();
-        Start = new javax.swing.JButton();
-        Image2 = new javax.swing.JLabel();
-        jButton1 = new javax.swing.JButton();
-        jPanel1 = new javax.swing.JPanel();
+        RPG2 = new javax.swing.JPanel();
         Title = new javax.swing.JLabel();
-        Image3 = new javax.swing.JLabel();
         GameText = new javax.swing.JLabel();
+        Image3 = new javax.swing.JLabel();
         Continue = new javax.swing.JButton();
-
-        Image1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/kisspng-final-fantasy-vii-remake-cloud-strife-gray-wolf-sy-cloud-strife-5b3090161116e5.03523100152990927007 (2).png"))); // NOI18N
-        Image1.setText("jLabel1");
-
-        Start.setFont(new java.awt.Font("Trajan Pro", 0, 14)); // NOI18N
-        Start.setText("START");
-        Start.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                StartActionPerformed(evt);
-            }
-        });
-
-        Image2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/kisspng-final-fantasy-vii-remake-cloud-strife-gray-wolf-sy-cloud-strife-5b3090161116e5.03523100152990927007 (2).png"))); // NOI18N
-        Image2.setText("jLabel1");
-
-        jButton1.setText("jButton1");
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jPanel1.setBackground(new java.awt.Color(0, 0, 0));
+        RPG2.setBackground(new java.awt.Color(0, 0, 0));
 
         Title.setFont(new java.awt.Font("Wet Pet", 0, 48)); // NOI18N
         Title.setForeground(new java.awt.Color(255, 255, 255));
@@ -64,11 +44,11 @@ public class RPG2 extends javax.swing.JFrame {
         Title.setDebugGraphicsOptions(javax.swing.DebugGraphics.NONE_OPTION);
         Title.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
-        Image3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/qixpossm9pw11 (1).jpg"))); // NOI18N
-
         GameText.setFont(new java.awt.Font("Goudy Old Style", 0, 18)); // NOI18N
         GameText.setForeground(new java.awt.Color(255, 255, 255));
-        GameText.setText("<html> * You approach the gates of Aeriden <br> * You pause to look at the lush forest that <br>    &nbsp;  encompases the small dreary town <br> * Moss coveres the cracked stones of the <br>    &nbsp; gates and a heavy mist rises from the ground <br> * A sudden chill seeps into you're bones <br> * Is it from the weather or the negative feeling <br> &nbsp; that holds the town hostage?<html>");
+        GameText.setText("<html> * You approach the gates of Aeriden <br> * You pause to look at the lush forest that <br>    &nbsp;  encompases the small dreary town <br> * Moss covers the cracked stones of the <br>    &nbsp; gates and a heavy mist rises from the ground <br> * A sudden chill seeps into you're bones <br> * Is it from the weather or the negative feeling <br> &nbsp; that holds the town hostage?<html>");
+
+        Image3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/qixpossm9pw11 (1).jpg"))); // NOI18N
 
         Continue.setFont(new java.awt.Font("Trajan Pro", 0, 14)); // NOI18N
         Continue.setText("CONTINUE");
@@ -78,37 +58,39 @@ public class RPG2 extends javax.swing.JFrame {
             }
         });
 
-        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
-        jPanel1.setLayout(jPanel1Layout);
-        jPanel1Layout.setHorizontalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(27, 27, 27)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(Title)
-                            .addComponent(Image3)))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(264, 264, 264)
-                        .addComponent(GameText, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
+        javax.swing.GroupLayout RPG2Layout = new javax.swing.GroupLayout(RPG2);
+        RPG2.setLayout(RPG2Layout);
+        RPG2Layout.setHorizontalGroup(
+            RPG2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(RPG2Layout.createSequentialGroup()
+                .addGroup(RPG2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(RPG2Layout.createSequentialGroup()
                         .addGap(252, 252, 252)
-                        .addComponent(Continue)))
-                .addContainerGap(31, Short.MAX_VALUE))
+                        .addComponent(Continue))
+                    .addGroup(RPG2Layout.createSequentialGroup()
+                        .addGap(27, 27, 27)
+                        .addGroup(RPG2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(Title)
+                            .addGroup(RPG2Layout.createSequentialGroup()
+                                .addGap(17, 17, 17)
+                                .addComponent(Image3)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 50, Short.MAX_VALUE)
+                                .addComponent(GameText, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                .addGap(30, 30, 30))
         );
-        jPanel1Layout.setVerticalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
+        RPG2Layout.setVerticalGroup(
+            RPG2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(RPG2Layout.createSequentialGroup()
                 .addGap(20, 20, 20)
                 .addComponent(Title)
-                .addGap(51, 51, 51)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(Image3)
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                        .addComponent(GameText, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(12, 12, 12)))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 50, Short.MAX_VALUE)
+                .addGroup(RPG2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(RPG2Layout.createSequentialGroup()
+                        .addGap(69, 69, 69)
+                        .addComponent(Image3))
+                    .addGroup(RPG2Layout.createSequentialGroup()
+                        .addGap(78, 78, 78)
+                        .addComponent(GameText, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 74, Short.MAX_VALUE)
                 .addComponent(Continue)
                 .addGap(41, 41, 41))
         );
@@ -117,19 +99,15 @@ public class RPG2 extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(RPG2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(RPG2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
-    private void StartActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_StartActionPerformed
-        
-    }//GEN-LAST:event_StartActionPerformed
 
     private void ContinueActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ContinueActionPerformed
 
@@ -175,12 +153,8 @@ public class RPG2 extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton Continue;
     private javax.swing.JLabel GameText;
-    private javax.swing.JLabel Image1;
-    private javax.swing.JLabel Image2;
     private javax.swing.JLabel Image3;
-    private javax.swing.JButton Start;
+    private javax.swing.JPanel RPG2;
     private javax.swing.JLabel Title;
-    private javax.swing.JButton jButton1;
-    private javax.swing.JPanel jPanel1;
     // End of variables declaration//GEN-END:variables
 }

@@ -15,6 +15,7 @@ public class RPG1 extends javax.swing.JFrame {
      */
     public static String playerName;
     
+    
     public RPG1() {
         initComponents();
     }

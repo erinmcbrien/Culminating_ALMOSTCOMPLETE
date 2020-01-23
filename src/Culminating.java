@@ -26,18 +26,19 @@ public class Culminating extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        Image3 = new javax.swing.JLabel();
-        jPanel1 = new javax.swing.JPanel();
+        Image2 = new javax.swing.JLabel();
+        RPG1 = new javax.swing.JPanel();
         Title = new javax.swing.JLabel();
         Start = new javax.swing.JButton();
         Image1 = new javax.swing.JLabel();
-        Image2 = new javax.swing.JLabel();
+        Image3 = new javax.swing.JLabel();
 
-        Image3.setText("jLabel1");
+        Image2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/kisspng-final-fantasy-vii-remake-cloud-strife-gray-wolf-sy-cloud-strife-5b3090161116e5.03523100152990927007 (2).png"))); // NOI18N
+        Image2.setText("jLabel1");
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jPanel1.setBackground(new java.awt.Color(0, 0, 0));
+        RPG1.setBackground(new java.awt.Color(0, 0, 0));
 
         Title.setFont(new java.awt.Font("Wet Pet", 0, 48)); // NOI18N
         Title.setForeground(new java.awt.Color(255, 255, 255));
@@ -58,39 +59,39 @@ public class Culminating extends javax.swing.JFrame {
         Image1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/kisspng-final-fantasy-vii-remake-cloud-strife-gray-wolf-sy-cloud-strife-5b3090161116e5.03523100152990927007 (2).png"))); // NOI18N
         Image1.setText("jLabel1");
 
-        Image2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/kisspng-final-fantasy-vii-remake-cloud-strife-gray-wolf-sy-cloud-strife-5b3090161116e5.03523100152990927007 (2).png"))); // NOI18N
-        Image2.setText("jLabel1");
+        Image3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/kisspng-final-fantasy-vii-remake-cloud-strife-gray-wolf-sy-cloud-strife-5b3090161116e5.03523100152990927007 (2).png"))); // NOI18N
+        Image3.setText("jLabel1");
 
-        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
-        jPanel1.setLayout(jPanel1Layout);
-        jPanel1Layout.setHorizontalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
+        javax.swing.GroupLayout RPG1Layout = new javax.swing.GroupLayout(RPG1);
+        RPG1.setLayout(RPG1Layout);
+        RPG1Layout.setHorizontalGroup(
+            RPG1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(RPG1Layout.createSequentialGroup()
                 .addGap(27, 27, 27)
                 .addComponent(Title)
                 .addContainerGap(23, Short.MAX_VALUE))
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(41, 41, 41)
-                .addComponent(Image2, javax.swing.GroupLayout.PREFERRED_SIZE, 154, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addGroup(RPG1Layout.createSequentialGroup()
+                .addGap(38, 38, 38)
+                .addComponent(Image3, javax.swing.GroupLayout.PREFERRED_SIZE, 154, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(Start, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(43, 43, 43)
                 .addComponent(Image1, javax.swing.GroupLayout.PREFERRED_SIZE, 154, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(55, 55, 55))
         );
-        jPanel1Layout.setVerticalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
+        RPG1Layout.setVerticalGroup(
+            RPG1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(RPG1Layout.createSequentialGroup()
                 .addGap(20, 20, 20)
                 .addComponent(Title)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
+                .addGroup(RPG1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(RPG1Layout.createSequentialGroup()
                         .addGap(48, 48, 48)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(Image2)
-                            .addComponent(Image1))
+                        .addGroup(RPG1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(Image1)
+                            .addComponent(Image3))
                         .addContainerGap(108, Short.MAX_VALUE))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, RPG1Layout.createSequentialGroup()
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(Start, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(121, 121, 121))))
@@ -100,11 +101,11 @@ public class Culminating extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(RPG1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(RPG1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
         pack();
@@ -154,8 +155,8 @@ public class Culminating extends javax.swing.JFrame {
     private javax.swing.JLabel Image1;
     private javax.swing.JLabel Image2;
     private javax.swing.JLabel Image3;
+    private javax.swing.JPanel RPG1;
     private javax.swing.JButton Start;
     private javax.swing.JLabel Title;
-    private javax.swing.JPanel jPanel1;
     // End of variables declaration//GEN-END:variables
 }
